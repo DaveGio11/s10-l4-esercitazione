@@ -43,6 +43,7 @@ const CommentArea = ({ asin }) => {
 
   return (
     <div className="text-center">
+      <h3>Clicca per vedere i commmenti!</h3>
       {isLoading && <Loading />}
       {isError && <Error />}
       <AddComment asin={asin} />
